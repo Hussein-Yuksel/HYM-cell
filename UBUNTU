@@ -1,0 +1,35 @@
+                                             ubuntu
+                                             
+                                                                                          
+    UPDATE
+    
+sudo apt update        $-Fetches the list of available updates
+sudo apt upgrade       $-Installs some updates does not remove packages
+sudo apt full-upgrade  $-Installs updates may also remove some packages if needed
+sudo apt autoremove    $-Removes any old packages that are no longer needed
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Commands used for System Information
+
+date
+TZ=GMT date
+TZ=KSA date
+set----->Linux allows its user to set the current date and time of the system manually.Syntax: date –set=”Date_in_format(YYMMDD) Time_in_format(HH:MM)” 
+   sudo date --set="20150715 04:13"
+-------------------------------------------------------------------------------------   
+-d--->To operate the system on a specific date, you can change the date by using “-d”.Syntax: date -d Date_to_operate_system_on
+date -d now
+date -d yesterday
+date -d tomorrow
+date -d last-Sunday
+date -d “1997-04-22”
+----------------------------------------------------------------------------------------------
+df--->The command “df” shows the amount of disk space used and disk space available on every file system containing each filesystem’s name and its path.
+
+--------------------------------------------------------------------------------
+df-h---->The command “df -h” shows the same result as the command “df” but now the data is in a more human-readable form which can be easily comprehended by a new user.
+
+------------------------------------------------------------------------------------
+free-->The command “free” displays the amount of free and used memory in the complete system.
+
+-----------------------------------------------------------------------------------------------------------------------------
